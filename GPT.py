@@ -7,7 +7,7 @@ import openai
 from moviepy.editor import AudioFileClip
 
 # Установите ваш токен OpenAI API
-openai.api_key = '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'
+openai.api_key = 'OpenAI API'
 
 # Настройка логгирования
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
@@ -162,7 +162,7 @@ def handle_payment(update, context):
 
 def main():
     # Установка токена Telegram бота
-    updater = Updater("5585386595:AAG5jyCXWOLzWql0ajLE3_gdlAsaOwCbPDs", use_context=True)
+    updater = Updater("Установка токена Telegram бота", use_context=True)
 
     # Получаем диспетчер для регистрации обработчиков
     dp = updater.dispatcher
