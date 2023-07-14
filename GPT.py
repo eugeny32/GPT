@@ -7,7 +7,7 @@ import openai
 from moviepy.editor import AudioFileClip
 
 # Установите ваш токен OpenAI API
-openai.api_key = 'OpenAI API'
+openai.api_key = 'Установите ваш токен OpenAI API'
 
 # Настройка логгирования
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
